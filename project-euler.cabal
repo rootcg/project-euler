@@ -26,6 +26,7 @@ library
   exposed-modules:
       Problem_1
       Problem_2
+      Problem_3
   other-modules:
       Paths_project_euler
   hs-source-dirs:

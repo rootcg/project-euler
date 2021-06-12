@@ -2,3 +2,4 @@
 *.lock
 out/
 *.iml
+.idea/
