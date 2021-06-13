@@ -10,6 +10,7 @@ import Data.Maybe (fromMaybe)
 
 -- https://projecteuler.net/problem=3
 -- Largest prime factor of 600851475143
+
 largestPrimeFactor :: Int -> Int
 largestPrimeFactor n = fromMaybe 1 $ find (\p -> mod n p == 0) (reverse factors)
   where factors = takeWhile (\p -> p * p <= n) primes
